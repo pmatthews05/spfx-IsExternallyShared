@@ -24,22 +24,7 @@
       "name": "Field Customizer debug",
       "type": "chrome",
       "request": "launch",
-      "url": "https://cann0nf0dder.sharepoint.com/Shared%20Documents/Forms/AllItems.aspx?loadSPFX=true&debugManifestsFile=https://localhost:4321/temp/manifests.js&fieldCustomizers={%22External%22:{%22id%22:%225a2b5791-4f5e-4ae8-a4ef-59287f6f9b09%22,%22properties%22:{%22sampleText%22:%22Hello!%22}}}",
-      "webRoot": "${workspaceRoot}",
-      "sourceMaps": true,
-      "sourceMapPathOverrides": {
-        "webpack:///../../../src/*": "${webRoot}/src/*",
-        "webpack:///../../../../src/*": "${webRoot}/src/*",
-        "webpack:///../../../../../src/*": "${webRoot}/src/*"
-      },
-      "runtimeArgs": [
-        "--remote-debugging-port=9222"
-      ]
-    },{
-      "name": "Field Customizer debug 2",
-      "type": "chrome",
-      "request": "launch",
-      "url": "https://beisdev3.sharepoint.com/sites/March-R3/3/Shared%20Documents/Forms/Working.aspx?loadSPFX=true&debugManifestsFile=https://localhost:4321/temp/manifests.js&fieldCustomizers={%22CFExternal%22:{%22id%22:%225a2b5791-4f5e-4ae8-a4ef-59287f6f9b09%22,%22properties%22:{%22sampleText%22:%22Hello!%22}}}",
+      "url": "https://<tenant>.sharepoint.com/Shared%20Documents/Forms/AllItems.aspx?loadSPFX=true&debugManifestsFile=https://localhost:4321/temp/manifests.js&fieldCustomizers={%22External%22:{%22id%22:%225a2b5791-4f5e-4ae8-a4ef-59287f6f9b09%22,%22properties%22:{%22sampleText%22:%22Hello!%22}}}",
       "webRoot": "${workspaceRoot}",
       "sourceMaps": true,
       "sourceMapPathOverrides": {
