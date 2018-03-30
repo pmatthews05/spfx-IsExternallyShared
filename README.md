@@ -2,7 +2,7 @@
 ## SPFX Field Customiser
 A SPFX Field Customiser to show if the item is externally shared 
 
-![Externally-Shared-gif](./assets/ExternallySharedExample.gif)
+![Externally-Shared-gif](./Assets/ExternallySharedExample.gif)
 //ToDo: Write how to deploy.
 
 ## PNP-Template
