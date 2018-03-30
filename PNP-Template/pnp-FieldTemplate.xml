@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2018/01/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=2.24.1803.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+    <pnp:Templates ID="CONTAINER-TEMPLATE-F1141DEAE9CB4EEDAA57FB4B1E8C9B78">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-F1141DEAE9CB4EEDAA57FB4B1E8C9B78" Version="1" BaseSiteTemplate="STS#0" Scope="RootSite">
+      <pnp:SiteFields>
+        <Field Type="Text" ClientSideComponentId="5a2b5791-4f5e-4ae8-a4ef-59287f6f9b09" DisplayName="Externally Shared" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Description="Used with SPFX field customizer, displays if the item is externally shared" ID="{1c0fa51d-ba22-4281-a281-bed3938bbb57}" ShowInNewForm="FALSE" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInFileDlg="FALSE" ShowInListSettings="FALSE" ShowInVersionHistory="FALSE" ShowInViewForms="TRUE" Sortable="FALSE" Group="SPFX Columns" StaticName="ExternallyShared" Width="100px" Filterable="FALSE" Name="ExternallyShared" SourceID="http://schemas.microsoft.com/sharepoint/v3"></Field>
+      </pnp:SiteFields>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>
