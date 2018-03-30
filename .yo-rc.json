@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.1",
+    "libraryName": "externally-shared-field-customiser",
+    "libraryId": "69b918fc-f6af-4597-b630-5bb9e2affe60",
+    "environment": "spo"
+  }
+}

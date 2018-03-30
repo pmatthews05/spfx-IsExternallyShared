@@ -1,0 +1,13 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "externally-shared-field-customiser-client-side-solution",
+    "id": "69b918fc-f6af-4597-b630-5bb9e2affe60",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/externally-shared-field-customiser.sppkg"
+  }
+}
