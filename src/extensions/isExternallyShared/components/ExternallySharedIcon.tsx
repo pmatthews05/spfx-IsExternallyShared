@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { override } from '@microsoft/decorators';
-import { UrlQueryParameterCollection } from '@microsoft/sp-core-library';
 
 export interface IExternallySharedIconProps {
     isExternallyShared: number;

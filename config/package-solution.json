@@ -1,11 +1,19 @@
 {
-  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
+    "developer": {
+      "name": "Cann0nf0dder",
+      "privacyUrl": "https://contoso.com/privacy",
+      "termsOfUseUrl": "https://contoso.com/terms-of-use",
+      "websiteUrl": "https://cann0nf0dder.wordpress.com/2018/04/05/externally-sharing-spfx-isexternallyshared-field-customizer/",
+      "mpnId": "000000"
+    },
     "name": "externally-shared-field-customiser-client-side-solution",
     "id": "69b918fc-f6af-4597-b630-5bb9e2affe60",
     "version": "1.0.0.0",
     "includeClientSideAssets": true,
-    "skipFeatureDeployment": true
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false
   },
   "paths": {
     "zippedPackage": "solution/externally-shared-field-customiser.sppkg"

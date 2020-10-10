@@ -1,6 +1,6 @@
 import { Log, Guid } from '@microsoft/sp-core-library';
 import { override } from '@microsoft/decorators';
-import { SPHttpClient, ISPHttpClientOptions, SPHttpClientResponse } from '@microsoft/sp-http';
+import { SPHttpClient } from '@microsoft/sp-http';
 import * as React from 'react';
 
 import styles from './IsExternallyShared.module.scss';

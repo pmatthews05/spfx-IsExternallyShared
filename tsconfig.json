@@ -1,8 +1,24 @@
 {
+  "include": [
+    "src/**/*.tsx"
+  ],
+  "extends": "./node_modules/@microsoft/rush-stack-compiler-3.3/includes/tsconfig-web.json",
+  "resolutions": {
+    "@types/react": "16.8.8"
+  },
+  "exclude": [
+    "node_modules",
+    "lib"
+  ],
   "compilerOptions": {
+    "outDir": "lib",
+    "inlineSources": false,
+    "strictNullChecks": false,
+    "noUnusedLocals": false,
     "target": "es5",
+    "moduleResolution": "node",
     "forceConsistentCasingInFileNames": true,
-    "module": "commonjs",
+    "module": "esnext",
     "jsx": "react",
     "declaration": true,
     "sourceMap": true,
