@@ -19,7 +19,7 @@ Open the folder ./sharepoint/solution to get the file ./sharepoint/solution/exte
 - Upload the externally-shared-field-customiser.sppkg to the list.
 - Tick 'Make this solution available to all sites in the organization', click Deploy
 
-![App-Deployed](./Assets/DeployedAppCatalog.png)
+![App-Deployed](./Assets/DeployedAppCatalog.PNG)
 
 ## PNP-Template
 The pnp-FieldTemplate.xml is a PNP template you can use to add the field to your site.
