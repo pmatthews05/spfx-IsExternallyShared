@@ -11,14 +11,15 @@
     "test": "gulp test"
   },
   "dependencies": {
-    "react": "15.6.2",
-    "react-dom": "15.6.2",
+    "@microsoft/decorators": "~1.4.1",
+    "@microsoft/sp-core-library": "~1.4.1",
+    "@microsoft/sp-listview-extensibility": "~1.4.1",
     "@types/react": "15.6.6",
     "@types/react-dom": "15.5.6",
-    "@microsoft/sp-core-library": "~1.4.1",
-    "@microsoft/decorators": "~1.4.1",
     "@types/webpack-env": ">=1.12.1 <1.14.0",
-    "@microsoft/sp-listview-extensibility": "~1.4.1"
+    "natives": "^1.1.6",
+    "react": "15.6.2",
+    "react-dom": "15.6.2"
   },
   "devDependencies": {
     "@microsoft/sp-build-web": "~1.4.1",
