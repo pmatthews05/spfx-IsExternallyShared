@@ -32,7 +32,7 @@ export default class IsExternallySharedFieldCustomizer
   public onInit(): Promise<void> {
     // Add your custom initialization to this method.  The framework will wait
     // for the returned promise to resolve before firing any BaseFieldCustomizer events.
-  
+
     Log.info(LOG_SOURCE, 'Activated IsExternallySharedFieldCustomizer with properties:');
     Log.info(LOG_SOURCE, `The following string should be equal: "IsExternallySharedFieldCustomizer" and "${strings.Title}"`);
     this.listId = this.context.pageContext.list.id;
@@ -41,14 +41,14 @@ export default class IsExternallySharedFieldCustomizer
 
   @override
   public onRenderCell(event: IFieldCustomizerCellEventParameters): void {
-    
+
     const id = event.listItem.getValueByName('ID');
     Log.info(LOG_SOURCE, `Loaded onRenderCell: ID: ${id}`);
-    
+
 
     const isExternallyShared: React.ReactElement<{}> =
-      React.createElement(IsExternallyShared, 
-        { 
+      React.createElement(IsExternallyShared,
+        {
           id: id,
           listId: this.listId,
           context: this.context
